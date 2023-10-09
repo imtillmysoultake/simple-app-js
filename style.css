@@ -1,14 +1,20 @@
 body {
     border: solid 0px;
+    margin: 0;
+}
 
+#myButton:active {
+    border: solid;
+    border: solid 2px;
+    border-radius: 0px 10px 10px 0px;
+    border-color:  blue;
 }
 
 #myButton {
     border: solid;
     border: solid 1px;
     border-radius: 0px 10px 10px 0px;
-    color: black;
-    border-color: blue;
+    border-color:  black;
 }
 
 input{
@@ -16,7 +22,6 @@ input{
     border: solid 1px;
     border-radius: 10px 0px 0px 10px;
 }
-
 
 .home {
     font-family: 'Tangerine', serif;
@@ -27,4 +32,8 @@ input{
     display: flex;
     color: black;
     border-color: blue;
+}
+
+.error .inputSaveDiv{
+    border-color: red;
 }
