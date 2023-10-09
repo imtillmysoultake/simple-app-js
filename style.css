@@ -1,0 +1,30 @@
+body {
+    border: solid 0px;
+
+}
+
+#myButton {
+    border: solid;
+    border: solid 1px;
+    border-radius: 0px 10px 10px 0px;
+    color: black;
+    border-color: blue;
+}
+
+input{
+    border: solid;
+    border: solid 1px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.home {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+}
+
+.inputSaveDiv {
+    display: flex;
+    color: black;
+    border-color: blue;
+}
